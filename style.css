@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    font-family: 'Montagu Slab', serif;
+    background-image: linear-gradient(
+  5deg,
+  hsl(7deg 100% 35%) 0%,
+  hsl(357deg 100% 36%) 5%,
+  hsl(354deg 100% 37%) 10%,
+  hsl(351deg 100% 38%) 14%,
+  hsl(349deg 100% 39%) 19%,
+  hsl(346deg 100% 40%) 24%,
+  hsl(344deg 100% 41%) 29%,
+  hsl(341deg 100% 41%) 33%,
+  hsl(339deg 100% 42%) 38%,
+  hsl(336deg 100% 42%) 43%,
+  hsl(332deg 100% 42%) 48%,
+  hsl(329deg 100% 42%) 52%,
+  hsl(325deg 100% 41%) 57%,
+  hsl(320deg 100% 41%) 62%,
+  hsl(315deg 100% 39%) 67%,
+  hsl(309deg 100% 38%) 71%,
+  hsl(301deg 100% 36%) 76%,
+  hsl(293deg 100% 38%) 81%,
+  hsl(284deg 100% 41%) 86%,
+  hsl(276deg 100% 44%) 90%,
+  hsl(267deg 100% 47%) 95%,
+  hsl(254deg 100% 50%) 100%
+);
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    width: 100%;
+    height: 40vh;
+    background-image: url(./tela.jpg);
+    background-position: center;
+    background-size: cover;
+} 
+
+header img {
+    width: 200px;
+    margin: 2em auto;
+    justify-self: center;
+}
+
+.cover {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    color: #fff;
+    align-self: flex-end;
+    height: 100%;
+}
+
+header h1 {
+    align-self: center;
+    margin: 0 auto;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    padding: 1em 1em;
+    color: #fff;
+    font-size: 2em;
+    background-color: red;
+    margin: 1em 0;
+}
+
+.h2f {
+    background-color: blue;
+}
+
+.texto1, 
+.texto2,
+.texto3
+{
+    padding: 0 2em;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: blue;
+}
+
+.iconos {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+i {
+    padding: 10px;
+}
